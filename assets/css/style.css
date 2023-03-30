@@ -32,6 +32,7 @@ a {
     border: 2px solid rgba(216, 202, 6, 0.747) ;
     padding: 10px;
     border-radius: 15px;
+    margin: 10px;
 }
 
 a:hover {
@@ -60,7 +61,7 @@ p {
 img {
     width: 580px;
     height: 500px;
-    object-fit: cover;
+
 }
 
 form {
@@ -72,4 +73,22 @@ form {
 input {
     margin-top: 20px;
     height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size:15px ;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgba(216, 202, 6, 0.747);
+    color: white;
+    font-weight: bolder;
+}
+
+
+form [type="submit"]:hover{
+    cursor: pointer;
+   
 }
