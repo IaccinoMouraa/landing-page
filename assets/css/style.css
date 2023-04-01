@@ -58,25 +58,20 @@ p {
     max-width: 200px;
 }
 
-img {
-    width: 580px;
-    height: 500px;
+.logo {
+    width: 20px;
+    height: 10px;
+}
 
+img {
+    object-fit: cover;
+  
 }
 
 form {
     display: flex;
     flex-direction: column;
     width: 70%;
-}
-
-input {
-    margin-top: 20px;
-    height: 20px;
-    padding: 15px;
-    border-radius: 20px;
-    border: none;
-    font-size:15px ;
 }
 
 form [type="submit"]{
@@ -91,4 +86,13 @@ form [type="submit"]{
 form [type="submit"]:hover{
     cursor: pointer;
    
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size:15px ;
 }
